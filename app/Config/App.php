@@ -25,7 +25,10 @@ class App extends BaseConfig
 	 */
 	
 	//public $baseURL = "https://www.labpix.com.br/clientes/lemme/";
-	public $baseURL = "http://localhost/manha/";
+	//public $baseURL = "http://localhost/manha/";
+	public $baseURL = "https://aprovacao-ccd5a7cgbrguczdk.canadacentral-01.azurewebsites.net/manha/";
+
+	
 
 	/**
 	 * --------------------------------------------------------------------------
