@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        height: 2000px;
+    }
+
+    .fade {
+  background-color: black;
+  opacity: 0.7;
+  width: 100%;
+  height: 120vh;
+  display: flex;
+}
+    
+.containerpopflex {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  padding-top: 2%;
+  z-index: 999;
+  width: 100%;
+  top: 5%;
+}
+
+.containerpop {
+  position: fixed;
+  z-index: 999;
+  margin: 1rem;
+  -webkit-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.5);
+-moz-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.5);
+box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.5);
+}
+
+.popup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  max-width: 540px;
+}
+
+.img {
+  width: 100%;
+  position: relative;
+}
+
+.close {
+  cursor: pointer;
+  color: white;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 12px;
+  background-color: rgb(0, 59, 76);
+}
+</style>
+
+<body>
+    <span class="fade"></span>
+    <div class="containerpopflex">
+        <div class="containerpop">
+            <div class="popup">
+                <img src="popup.jpg" title="Stand de Vendas" alt="Stand de Vendas" class="img">
+                <span class="close">X</span>
+                </img>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
