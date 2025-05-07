@@ -80,9 +80,9 @@ class Database extends Config
 	public $tests = [
 		'DSN'      => '',
 		'hostname' => '148.72.158.252',
-		'username' => 'bidesecom2021_aprovacao',
-		'password' => 'Ataav8g*F#hv',
-		'database' => 'bidesecom2021_manha',
+		'username' => 'bidesecom2021_acompanhamento',
+		'password' => 'WBX110!?2025458!@2025',
+		'database' => 'bidesecom2021_acompanhamentomanha',
 		'DBDriver' => 'MySQLi',
 		'DBPrefix' => '',
 		'pConnect' => false,
